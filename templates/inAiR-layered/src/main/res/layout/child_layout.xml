@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIViewGroup
+  xmlns:tools="http://schemas.android.com/tools"
+  xmlns:ui="http://schemas.android.com/apk/res-auto"
+  tools:context="tv.inair.layeredtemplate.ChildLayout">
+
+  <UIImageView
+    ui:id="@+id/staticImageView"
+    ui:height="200.0"
+    ui:width="200.0"
+    ui:alpha="1.0"
+    ui:positionX="960.0"
+    ui:positionY="540.0"
+    ui:positionZ="0.0"
+    ui:src="@drawable/facebook"/>
+
+  <UITextView
+    ui:height="200.0"
+    ui:width="400.0"
+    ui:text="{ Binding Path:'descText' }"
+    ui:textColor="@color/green"
+    ui:textSize="50.0"
+    ui:alpha="1.0"
+    ui:positionX="960.0"
+    ui:positionY="340.0"
+    ui:positionZ="0.0"/>
+
+</UIViewGroup>

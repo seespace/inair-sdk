@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UILayeredViewItem xmlns:ui="http://schemas.android.com/apk/res-auto"
+               ui:title="{ Binding Path='title' }">
+
+  <UIImageView
+    ui:alpha="1.0"
+    ui:height="345"
+    ui:width="350"
+    ui:tint="@color/green"
+    ui:src="{ Binding Path='imageSrc' }"/>
+
+  <UIRectView
+    ui:alpha="1.0"
+    ui:positionY="355"
+    ui:height="345"
+    ui:width="350"
+    ui:color="{ Binding Path='viewColor' }"/>
+
+</UILayeredViewItem>
